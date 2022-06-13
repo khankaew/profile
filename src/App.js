@@ -1,10 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
+      <Outlet />
+
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -26,6 +28,7 @@ function App() {
             paddingBottom: "1rem",
           }}
         >
+          <Link to="/">Home</Link> |{" "}
           <Link to="/page1">page1</Link> |{" "}
           <Link to="/page2">page2</Link>
         </nav>
