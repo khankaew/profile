@@ -28,9 +28,9 @@ function App() {
             paddingBottom: "1rem",
           }}
         >
-          <Link to="/">Home</Link> |{" "}
-          <Link to="/page1">page1</Link> |{" "}
-          <Link to="/page2">page2</Link>
+          <Link to="/profile">Home</Link> |{" "}
+          <Link to="/profile/page1">page1</Link> |{" "}
+          <Link to="/profile/page2">page2</Link>
         </nav>
       </header>
     </div>
